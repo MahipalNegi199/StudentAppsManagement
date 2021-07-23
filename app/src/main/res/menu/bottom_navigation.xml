@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item1"
+        android:title="Home"
+        android:icon="@drawable/home_icon"
+        app:showAsAction="ifRoom"
+        >
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:title="Time Table Management"
+        android:icon="@drawable/timetable"
+        app:showAsAction="ifRoom"
+       >
+    </item>
+    <item
+        android:id="@+id/item3"
+        android:title=" Attendance Management"
+       android:icon="@drawable/attendance_icon"
+        app:showAsAction="ifRoom"
+        >
+    </item>
+
+    <item
+       android:id="@+id/item4"
+        android:title="Notification"
+        android:icon="@drawable/notification_icon"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+
+
+</menu>

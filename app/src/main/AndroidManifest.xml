@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ambi.studentmanagementapps">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StudentManagementApps">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".prequestionpaper.PrePaperformat" />
+        <activity android:name=".prequestionpaper.SubjectPaperList" />
+        <activity android:name=".prequestionpaper.PreQuestionPaperClass" />
+        <activity android:name=".notes.NotesPDFList" />
+        <activity android:name=".notes.NotesStudentSubject" />
+        <activity android:name=".attendance.AttendanceList" />
+        <activity android:name=".holiday.HoliDayEventList" />
+        <activity android:name=".holiday.HoliCalendar" />
+        <activity android:name=".assignment.AssignmentSchedule" />
+        <activity android:name=".assignment.AssignmentSubject" />
+        <activity android:name=".feesdetails.StudentFee" />
+        <activity android:name=".recordedvideo.RecordedVideo" />
+        <activity android:name=".recordedvideo.RecordedClass" />
+        <activity android:name=".result.StudentResult" />
+        <activity android:name=".result.ResultFormat" />
+        <activity android:name=".Examination.ExamSchedule" />
+        <activity android:name=".Examination.Examformat" />
+        <activity android:name=".profile.StudentProfile" />
+        <activity android:name=".Liveclass.LiveSubject" />
+        <activity android:name=".Liveclass.OnlineZoomClass" />
+        <activity android:name=".Setting" />
+        <activity android:name=".Logout" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
